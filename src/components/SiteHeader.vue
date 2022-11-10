@@ -1,6 +1,44 @@
 <script>
 export default {
-    name:'SiteHeader'
+    name:'SiteHeader',
+    data(){
+        return{
+            menu:[
+                {
+                    text:'Characters'
+                },
+                {
+                    text:'Comics'
+                },
+                {
+                    text:'Movies'
+                },
+                {
+                    text:'Tv'
+                },
+                {
+                    text:'Games'
+                },
+                {
+                    text:'collectibles'
+                },
+                {
+                    text:'videos'
+                },
+                {
+                    text:'fans'
+                },
+                {
+                    text:'news'
+                },
+                {
+                    text:'shop'
+                },
+                
+
+            ]
+        }
+    }
 }
 
 </script>
@@ -17,16 +55,9 @@ export default {
             <div class="col">
                 <nav class="navbar">
                     <ul>
-                        <li><a href="#">Characters</a></li>
-                        <li><a href="#">Comics</a></li>
-                        <li><a href="#">Movies</a></li>
-                        <li><a href="#">Tv</a></li>
-                        <li><a href="#">Games</a></li>
-                        <li><a href="#">Collectibles</a></li>
-                        <li><a href="#">Videos</a></li>
-                        <li><a href="#">Fans</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Shop</a></li>
+                        <li v-for="item in menu">
+                            <a href="#">{{item.text}}</a>
+                        </li>
                     </ul>
             </nav>
             </div>
