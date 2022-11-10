@@ -1,26 +1,40 @@
 @use 'variables' as *;
 
 header{
-    height:150px;
-    background-color: red;
+    height:100px;
+    background-color: $light;
 
     .container{
         display: flex;
         flex-wrap: nowrap;
+        align-items: center;
         justify-content: space-between;
+        height: 100%;
     }
-    .logo{
-        width:30%;
-        height:300px;
-        background-color: blue;
-    }
-    .navbar{
-        background-color: green;
-    }
-    .navbar ul{
+    .logo {
         display: flex;
-        justify-content: space-between;
-        list-style: none;
+        align-items: center;
+        img{
+            width: 70px;
+        }
+    }
+    
+    .navbar {
+        ul{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            gap:0.8rem;
+        }
+        a{
+            text-decoration: none;
+            color:$bg_dark;
+            text-transform: uppercase;
+            font-size: $fs_md;
+            &:hover{
+                color:$primary_color;
+            }
+        }
     }
 }
 
