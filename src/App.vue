@@ -24,4 +24,4 @@ export default {
     <!-- site_footer -->
 </template>
 
-<style></style>
+<style lang="scss"></style>
