@@ -1,0 +1,41 @@
+@use 'variables' as *;
+
+
+
+footer{
+
+    .footer_top{
+        background-image: url('/img/footer-bg.jpg'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .container{
+            display: flex;
+            gap:2rem;
+            background-image: url('/img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: right;
+
+            .col{
+                padding-top:2.5rem;
+                padding-bottom:2.5rem;
+            }
+        }
+        h3{
+            text-transform: uppercase;
+            padding-bottom:1rem;
+            color:$light;
+        }
+        li{
+            font-size: $fs_sm;
+            color:$clr_hash;
+            padding-top:0.25rem;
+            padding-bottom:0.25rem;
+        }
+        .shop{
+            margin-top:1rem;
+        }
+       
+    }
+}

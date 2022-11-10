@@ -1,8 +1,6 @@
 @use 'variables' as *;
 
 main {
-    height: 600px;
-    background-color: lightblue;
 
     .content{
         background-color: $dark;
