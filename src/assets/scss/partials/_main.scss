@@ -1,0 +1,40 @@
+@use 'variables' as *;
+
+main {
+    height: 600px;
+    background-color: lightblue;
+
+    .content{
+        background-color: $dark;
+        color:$light;
+    }
+    .features{
+        background-color: $primary_color;
+
+        .container{
+            display: flex;
+            justify-content: space-around;
+            padding-top:2rem;
+            padding-bottom:2rem;
+         }
+    }
+    
+    img{
+        width:40px;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+
+        span{
+            padding-left:0.5rem;
+            text-transform: uppercase;
+            font-size: $fs_md;
+            color:$light;
+        }
+        #locator{
+            width:30px;
+        }
+    }
+    
+}

@@ -5,32 +5,50 @@ export default{
 </script>
 
 <template>
-    <main id="site_main" class="debug">
+    <main id="site_main">
         <div class="content">
             <div class="container">
-                Lorem, ipsum.
+                Content goes here
             </div>
         </div>
         <div class="features">
             <div class="container">
-                Lorem, ipsum dolor.
+                <div class="card">
+                    <div>
+                        <img src="/img/buy-comics-digital-comics.png" alt="">
+                    </div>
+                    <span>
+                        Digital comics
+                    </span>
+                </div>
+                <div class="card">
+                    <img src="/img/buy-comics-merchandise.png" alt="">
+                    <span>
+                        dc merchandise
+                    </span>
+                </div>
+                <div class="card">
+                    <img src="/img/buy-comics-subscriptions.png" alt="">
+                    <span>
+                        Subscriptions
+                    </span>
+                </div>
+                <div class="card">
+                    <img src="/img/buy-comics-shop-locator.png" alt="" id="locator">
+                    <span>
+                        comic shop locator
+                    </span>
+                </div>
+                <div class="card">
+                    <img src="/img/buy-dc-power-visa.svg" alt="">
+                    <span>
+                        dc power visa
+                    </span>
+                </div>               
             </div>
         </div>
     </main>
 </template>
 
-<style scoped>
-main {
-    height: 600px;
-    background-color: lightblue;
-}
-.debug .content, .debug .features{
-    height:50%;
-}
-.debug .content{
-    background-color: lightgrey;
-}
-.debug .features{
-    background-color: blueviolet;
-}
+<style>
 </style>
