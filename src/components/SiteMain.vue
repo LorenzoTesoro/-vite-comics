@@ -16,8 +16,10 @@ export default{
             <div class="container">
                 Content goes here
             </div>
+            <!-- /. main content  -->
         </div>
         <MainFeatures/>
+        <!-- main features -->
     </main>
 </template>
 

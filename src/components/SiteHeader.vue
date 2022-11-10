@@ -52,6 +52,7 @@ export default {
                     <img src="/img/dc-logo.png" alt="">
                 </div>
             </div>
+            <!-- ./ logo -->
             <div class="col">
                 <nav class="navbar">
                     <ul>
@@ -60,6 +61,7 @@ export default {
                         </li>
                     </ul>
             </nav>
+            <!-- /. navbar -->
             </div>
         </div>
     </header>

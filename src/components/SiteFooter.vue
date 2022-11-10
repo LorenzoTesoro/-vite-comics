@@ -56,6 +56,7 @@ export default{
                 </div>
             </div>
         </div>
+        <!-- footer_top -->
         <div class="footer_bottom">
             <div class="container">
                 <div class="col">
@@ -73,6 +74,7 @@ export default{
                 </div>                                
             </div>
         </div>
+        <!-- /. footer_top -->
     </footer>
 </template>
 
