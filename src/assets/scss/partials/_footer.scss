@@ -38,4 +38,44 @@ footer{
         }
        
     }
+
+    .footer_bottom{
+        background-color: $bg_dark;
+        padding-top:2rem;
+        padding-bottom:2rem;
+
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button{
+                text-transform: uppercase;
+                color:$light;
+                background-color:$bg_dark;
+                padding: 0.75rem 0.65rem;
+                border: 2px solid $primary_color
+            }
+            .follow{
+                text-transform: uppercase;
+                color:$primary_dark;
+                font-weight: bold;
+            }
+            .social{
+                display: flex;                align-items: center;
+
+                .follow{
+                    padding-right: 1rem;
+                }
+                img{
+                    background-color:$dark;
+                    aspect-ratio: 1;
+                    border-radius: 50%;
+                    width:30px;
+                    margin-inline: 0.5rem;
+                }
+
+            }
+        }
+    }
 }

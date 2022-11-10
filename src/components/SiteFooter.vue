@@ -58,7 +58,19 @@ export default{
         </div>
         <div class="footer_bottom">
             <div class="container">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, alias?
+                <div class="col">
+                    <div class="btn">
+                        <button>SIGN-UP now!</button>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="follow">Follow us</div>
+                    <img src="/img/footer-facebook.png" alt="">
+                    <img src="/img/footer-twitter.png" alt="">
+                    <img src="/img/footer-youtube.png" alt="">
+                    <img src="/img/footer-pinterest.png" alt="">
+                    <img src="/img/footer-periscope.png" alt="">
+                </div>                                
             </div>
         </div>
     </footer>
