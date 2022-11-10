@@ -35,8 +35,6 @@ header{
     background-color: red;
 }
 .container{
-    max-width: 1140px;
-    margin:0 auto;
     height:300px;
     display: flex;
     flex-wrap: nowrap;
