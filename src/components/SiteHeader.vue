@@ -60,8 +60,8 @@ export default {
                             <a href="#">{{item.text}}</a>
                         </li>
                     </ul>
-            </nav>
-            <!-- /. navbar -->
+                </nav>
+                <!-- /. navbar -->
             </div>
         </div>
     </header>

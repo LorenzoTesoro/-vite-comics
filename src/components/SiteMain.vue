@@ -1,15 +1,15 @@
 <script>
-import Banner from './Banner.vue';
+import BannerItem from './BannerItem.vue';
 import AppHero from './AppHero.vue';
-import Comic from './Comic.vue'
+import ComicItem from './ComicItem.vue'
 import comics from '../assets/data/comics.js'
 
 export default{
     name: 'SiteMain',
     components: {
-        Banner,
+        BannerItem,
         AppHero,
-        Comic,
+        ComicItem,
     },
     data (){
         return {
@@ -26,13 +26,13 @@ export default{
             <AppHero/>
             <!-- Jumbotron -->
             <div class="container">
-                <Comic v-for="comic in comics"
+                <ComicItem v-for="comic in comics"
                 :img="comic.thumb"
                 :title="comic.series"/>
             </div>
             <!-- /. main content  -->
         </div>
-        <Banner/>
+        <BannerItem/>
         <!-- main features -->
     </main>
 </template>

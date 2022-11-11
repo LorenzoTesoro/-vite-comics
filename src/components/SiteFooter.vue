@@ -1,7 +1,15 @@
 <script>
+import icons from '../assets/data/social.js'
+
 export default{
-    name: 'SiteFooter'
+    name: 'SiteFooter',
+    data(){
+        return{
+            icons: icons
+        }
+    }
 }
+
 </script>
 
 
@@ -116,11 +124,7 @@ export default{
                 </div>
                 <div class="social">
                     <div class="follow">Follow us</div>
-                    <img src="/img/footer-facebook.png" alt="">
-                    <img src="/img/footer-twitter.png" alt="">
-                    <img src="/img/footer-youtube.png" alt="">
-                    <img src="/img/footer-pinterest.png" alt="">
-                    <img src="/img/footer-periscope.png" alt="">
+                    <img :src="icon.path" alt="" v-for="icon in icons">
                 </div>                                
             </div>
         </div>

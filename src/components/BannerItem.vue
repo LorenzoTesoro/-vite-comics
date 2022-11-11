@@ -1,7 +1,7 @@
 <script>
 
 export default{
-    name: 'Banner',
+    name: 'BannerItem',
 
     data(){
         return{
