@@ -27,11 +27,15 @@ footer{
             padding-bottom:1rem;
             color:$light;
         }
-        li{
+        a{
             font-size: $fs_sm;
             color:$clr_hash;
             padding-top:0.25rem;
             padding-bottom:0.25rem;
+
+            &:hover{
+                color:$primary_color;
+            }
         }
         .shop{
             margin-top:1rem;
@@ -49,13 +53,19 @@ footer{
             justify-content: space-between;
             align-items: center;
 
-            button{
+            a{
                 text-transform: uppercase;
                 color:$light;
                 background-color:$bg_dark;
                 padding: 0.75rem 0.65rem;
-                border: 2px solid $primary_color
+                border: 2px solid $primary_color;
+
+                &:hover{
+                    background-color: $primary_color;
+                    cursor: pointer;
+                }
             }
+
             .follow{
                 text-transform: uppercase;
                 color:$primary_dark;

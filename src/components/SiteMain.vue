@@ -1,5 +1,5 @@
 <script>
-import MainFeatures from './MainFeatures.vue';
+import Banner from './Banner.vue';
 import AppHero from './AppHero.vue';
 import Comic from './Comic.vue'
 
@@ -7,7 +7,7 @@ import Comic from './Comic.vue'
 export default{
     name: 'SiteMain',
     components: {
-        MainFeatures,
+        Banner,
         AppHero,
         Comic
     },
@@ -105,7 +105,7 @@ export default{
             </div>
             <!-- /. main content  -->
         </div>
-        <MainFeatures/>
+        <Banner/>
         <!-- main features -->
     </main>
 </template>
