@@ -5,6 +5,29 @@ main {
     .content{
         background-color: $dark;
         color:$light;
+
+        .jumbotron{
+            height:400px;
+            background-image: url('/img/jumbotron.jpg');
+            background-size: cover;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            padding-top:0.5rem;
+            padding-bottom:0.5rem;
+        }
+        .card{
+            padding:1rem 0.75rem;
+
+            .card-img{
+                aspect-ratio: 1;
+                width: 150px;
+            }
+            .card-title{
+                padding-top: 0.5rem;
+            }
+        }
     }
 
     .features{

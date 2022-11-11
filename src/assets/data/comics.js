@@ -1,19 +1,8 @@
-<script>
-import MainFeatures from './MainFeatures.vue';
-import AppHero from './AppHero.vue';
-import Comic from './Comic.vue'
-
-
-export default{
-    name: 'SiteMain',
-    components: {
-        MainFeatures,
-        AppHero,
-        Comic
-    },
-    data (){
-        return {
-            comics: [
+export default {
+    name:'comics',
+    data(){
+        return{
+           comics: [
                 {
                   "thumb": "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
                   "price": "$19.99",
@@ -90,25 +79,3 @@ export default{
         }
     }
 }
-
-</script>
-
-<template>
-    <main id="site_main">
-        <div class="content">
-            <AppHero/>
-            <!-- Jumbotron -->
-            <div class="container">
-                <Comic v-for="comic in comics"
-                :img="comic.thumb"
-                :title="comic.series"/>
-            </div>
-            <!-- /. main content  -->
-        </div>
-        <MainFeatures/>
-        <!-- main features -->
-    </main>
-</template>
-
-<style>
-</style>
